@@ -241,10 +241,17 @@ describe("services", () => {
     MockDate.reset();
     config.FESTIVALS_LIMIT = 4;
     config.FESTIVALS = [
-      {type: "测试日", name: "老婆", year: "1996", date: "09-02"},
-      {type: "测试日", name: "结婚纪念日", year: "2020", date: "09-03"},
-      {type: "测试日", name: "李四", year: "1996", date: "09-31"},
-      {type: "测试日", name: "被搭讪纪念日", year: "2021", date: "09-01"},
+        {type: "生日", name: "阿航", year: "1998", data: "09-25"},
+      {
+        type: "生日",
+        name: "测试一下",
+        year: "2006",
+        data: "10-11",
+      },
+//       {type: "测试日", name: "老婆", year: "1996", date: "09-02"},
+//       {type: "测试日", name: "结婚纪念日", year: "2020", date: "09-03"},
+//       {type: "测试日", name: "李四", year: "1996", date: "09-31"},
+//       {type: "测试日", name: "被搭讪纪念日", year: "2021", date: "09-01"},
     ];
     expect(getBirthdayMessage()).toEqual("");
   });
