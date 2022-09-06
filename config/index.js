@@ -107,6 +107,7 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "阿航生日", "year": "1998", "date": "09-25"},
+    // 这里推送的日期推送多少
 //     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
 //     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
 //     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
@@ -127,6 +128,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
+    // 这里可以选择推送的信息可以新增
     {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2020-01-04"},
