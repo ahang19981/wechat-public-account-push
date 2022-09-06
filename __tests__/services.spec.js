@@ -205,13 +205,13 @@ describe("services", () => {
       // { type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01' }
     ];
     config.FESTIVALS_LIMIT = 4;
-    MockDate.set("2022-09-03");
+    MockDate.set("2022-09-25");
     expect(getBirthdayMessage()).toEqual(
       `
 今天是 结婚纪念日 哦，要开心！ 
-距离 李四 的26岁生日还有28天 
-距离 被搭讪纪念日 还有363天 
-距离 老婆 的27岁生日还有364天 
+距离 阿航 的25岁生日还有天 
+距离 测试日子 还有363天 
+距离 测试一下 的27岁生日还有364天 
 `.trimStart()
     );
     MockDate.reset();
