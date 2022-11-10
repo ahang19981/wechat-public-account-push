@@ -107,6 +107,7 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "阿航生日", "year": "1998", "date": "09-25"},
+    {"type": "生日", "name": "小妹生日", "year": "2006", "date": "02-26"},
     // 这里推送的日期推送多少
 //     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
 //     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
